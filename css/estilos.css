@@ -1,19 +1,37 @@
+
+body{
+    background-image: linear-gradient(white, #ab35dc69)
+}
 .bgPortada{
     background-image: url('../img/portada1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
 
-    /* background-size: cover;
-    display: block;
-    height: 100%;
-    left: 0;
-    position: fixed;
-    text-align: center;    
-    width: 100%; */
 }
 
 .portada{
-    height: 500px;
-    /* border: 1px solid */
+    height: 400px;
+    margin: 0px;
+}
+
+.bienvenido{
+    margin-top: -50px;    
+    color: white;
+    background-color:#7903aa;
+    height: 150px;
+}
+
+.busqueda{
+    margin: 30px 0 0 0;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.btn-search{
+    width: 300px;
+    height: 40px;
+    background-color: blue;
 }
