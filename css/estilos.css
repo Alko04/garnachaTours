@@ -1,0 +1,19 @@
+.bgPortada{
+    background-image: url('../img/portada1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+
+    /* background-size: cover;
+    display: block;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    text-align: center;    
+    width: 100%; */
+}
+
+.portada{
+    height: 500px;
+    /* border: 1px solid */
+}
